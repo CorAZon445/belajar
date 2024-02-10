@@ -1,16 +1,11 @@
-export function About_a() {
-  return <>terserah yg mau kau tulis</>;
-}
+import { About_a } from "./tesabout";
+import About_b from "./tesabout";
 
-export default function About_b() {
+export default function About() {
   return (
     <>
-      <div>
-        <h1>judul</h1>
-      </div>
-      <div>
-        <h1>judul 2</h1>
-      </div>
+      <About_a />
+      <About_b />
     </>
   );
 }
